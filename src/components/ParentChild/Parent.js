@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import {Child} from './Child'
+import {ChildOne} from './ChildOne'
 
-export const UseState= ()=> {
+export const Parent= ()=> {
     const [count,setCount] = useState(0)
 
-    console.log('UseState Render')
+    console.log('Parent Render')
    return (
      <div>
          <button onClick = {()=> setCount(c => c+1)}>Count - {count}</button>
@@ -15,4 +15,6 @@ export const UseState= ()=> {
    )
 }
 
-export default UseState
+export default Parent
+
+

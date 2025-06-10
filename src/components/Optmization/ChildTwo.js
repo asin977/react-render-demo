@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ChildOne = () => {
+export const ChildOne = ({children}) => {
     console.log('ChildOne Render')
   return (
     <div>
-      ChildOne  Components
+      {children}
     </div>
   )
 }

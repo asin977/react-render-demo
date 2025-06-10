@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChildOne = () => {
+export const ChildThree = ({children,name}) => {
     console.log('ChildOne Render')
   return (
     <div>
@@ -9,4 +9,4 @@ const ChildOne = () => {
   )
 }
 
-export default ChildOne
+export default ChildThree

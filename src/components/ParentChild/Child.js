@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Child = () => {
+export const Child = ({}) => {
     console.log('Child Render')
   return (
     <div>
